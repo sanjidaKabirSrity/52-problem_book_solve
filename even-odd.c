@@ -1,10 +1,10 @@
 #include "stdio.h"
 
 int main() {
-    int count_num, input_num, i, j; 
-    scanf("%d", &count_num); // input count of number
+    int line_num, input_num, i; 
+    scanf("%d", &line_num); // input Line number
 
-    for (i = 0; i < count_num; i++)
+    for (i = 0; i < line_num; i++)
     {
         scanf("%d", &input_num); // input int number
 
