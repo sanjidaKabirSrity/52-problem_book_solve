@@ -2,6 +2,7 @@
 
 int main () {
     int line_num, input_num, i, j;
+    
     scanf("%d", &line_num);
 
     for (i = 0; i < line_num; i++)
